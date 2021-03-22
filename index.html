@@ -3,12 +3,72 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 4 Project</title>
+    <link rel="stylesheet" type="text/css" href="/src/css/style.css">
+    <title>Donut shop</title>
+    
 </head>
 <body>
-    <div class="container">
-        <div class="anchor"></div>
-    </div>
-    <script src="/src/app.js"></script>
+    <header>
+    <h1>Fred the Baker Baking Company<br>
+        <!-- <img src="DonutStock.jpg"> -->
+    </h1>
+</header> 
+    <!-- <nav>
+        <ul class = "nav-links">
+            <li> About-Fred</a></li>
+            <div class= "fred-hied"> <img src="Donutpillow.jpg" class = "Donutimg"><p>Best Donut in the City</p></div>
+            <li><a href="#">cookie-clicker</a></li>
+            <li><a href="#">Contact</a></li>  
+        </ul>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+    </nav>   -->
+ <nav>
+        <element class="nav1"><h3 class ="about-fred">About Fred</h3>
+            <div class="fred-hide"><p>Best Donut in the City</p></div>
+        </element>
+       
+        <element class="nav2"><h3 class = "cookie-clicker">Cookie Clicker</h3>
+        <div class="cookie-hide"> <p>The inspiration for this game is Cookie Clicker</p></div>
+        </element>
+        
+        <element class="nav3"><h3 class = "contact">Contact me</h3>
+            <div class = "contact-hide"><p>I have a passion for lifelong learning. Currently pursuing to become a Full Stack Java Developer at We Can code It.</p>
+                <a href="https://www.linkedin.com/in/bilen-haile-a7a61176/">Linkedin</a>
+            </div>
+        </element>
+         <!-- <img src="singledonut.jpg"> -->
+ </nav> 
+   
+        <img src="singledonut.jpg">   
+    <div>Donuts: <span class="donut-count">0 </span></div>
+
+    <button class="buy-auto-clicker">Buy AutoClicker</button>
+    <div>Auto Clicker Count: <span class="auto-clicker-count"> 0 </span></div>
+    <div>Auto Clicker Cost: <span class="auto-clicker-cost"> 100 </span></div>
+
+    <button class="buy-multiplier">Buy Multiplier</button>
+    <div>Multiplier Count: <span class="multiplier-count"> 0 </span></div>
+    <div>Multiplier Cost: <span class="multiplier-cost"> 10 </span></div>
+
+    <button class="reset">Reset</button>
+    
+
+   
+    <!-- <section class ="buttons">
+        <form>
+
+            <input type = "button" value = "Make Donuts"class = "donutButton" onclick = "makeDonuts();">
+            <input type = "button" value = "Purchase Autoclicker "class = "autoClickerButton" onclick = "purchaseAutoClicker();" >
+            <input type = "button" value = "Purchase Multiplier "class = "multiplierButton" onclick = "purchaseMultiplier();" >
+           <br><br>
+            <input type = "button" value = "Reset Game" class = "resetButton" onclick = "resetGame();"> 
+        </form> -->
+    <script src="/src/js/Donut.js"></script>
+    <script src="/src/js/app.js"></script>
+    
 </body>
 </html>
